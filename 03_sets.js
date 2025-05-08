@@ -16,4 +16,11 @@ const numbers = new Set();
     numbers.add(1);
     numbers.add(2);
     numbers.add(['item1', 'item2', 'item3'])  // we can also add here data type 
+    numbers.add(['item1', 'item2', 'item3'])  // this will also be store but not count as duplicate because of 
     console.log(numbers);
+    /* has method  */
+    if(numbers.has(2)){
+        console.log("2 is there ");
+    } else{
+        console.log(" 2 is not there okay got it  ");
+    }
